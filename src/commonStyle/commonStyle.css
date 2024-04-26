@@ -1,0 +1,1013 @@
+#root{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+textarea{
+    font-size: 16px;
+    padding: 8;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3rem;
+}
+
+input{
+    font-size: 16px;
+    padding: 8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.text{
+    color:red
+}
+.header{
+    padding: 2% 4%;
+    
+}
+.body{
+    position: relative;
+}
+html, body {
+    height:100%;
+} 
+
+.imageUpload{
+    width: 150px;
+    height: 150px;
+    display: table-cell;
+    /* background-color:rgba(107,97,97,0.4); */;
+    background-color:#16252a;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.imageUploadText{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.imageUploadBox{
+    width:150px;
+    height:150px;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.labelSide{
+    flex-grow: 1;
+    flex-basis: 25%;
+    align-self: center;
+}
+
+.inputSide{
+    flex-grow: 1;
+    flex-basis: 75%;
+}
+
+.leftContent{
+    width: 70%;
+    float: left;
+}
+
+.rightContent{
+    width: 30%;
+    float: right;
+}
+
+.formBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+}
+
+.aboutLabel{
+    color:#5c6569;
+    font-size: 18px;
+}
+
+.imageContainer{
+    width: 50%;
+    display: flex;
+}
+
+.imageContainerLeft{
+    width: 70%;
+    float: left;
+}
+
+.imageContainerLeft input{
+    width: 100%;
+}
+
+.imageContainerRight{
+    width: 30%;
+    float: right;
+    color: #fff;
+    align-self: center;
+}
+
+input{
+    padding-left: 45px;
+}
+
+/* input::placeholder{
+    padding-left: 15px;
+} */
+
+
+
+.aboutInput[type="text"]::placeholder {
+             
+    /* Firefox, Chrome, Opera */
+    text-align: right;
+    padding-right: 4%;
+}
+
+.aboutInput[type="number"]::placeholder {
+             
+    /* Firefox, Chrome, Opera */
+    text-align: right;
+    padding-right: 4%;
+}
+.multipleSelect{
+    display: inline;
+    background-color: #153337;
+}
+
+.interestList{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding: 7px 20px;
+    background: #5c6569;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 16px;
+    margin-bottom:16px;
+}
+
+.interestBox{
+    display: inline;
+}
+
+.marginT25{
+    margin-top: 25px;
+}
+
+.userInfoBoxBG ul p{
+    display: inline-block;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    vertical-align: super;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.userInfoBoxBG ul{
+    display: contents;
+}
+.userInfoBoxBG img{
+    width: 20px;
+    height: 20px;
+}
+
+.userInfoBoxBG li{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    background: #1e2520;
+    border-radius: 12px;
+    padding: 7px 7px;
+}
+
+.css-13cymwt-control{
+    background-color: #153337!important;
+}
+
+.interestButton{
+    background-color: #000!important;
+    border: 0;
+    padding: 11px;
+    color: #fff;
+    margin-left: 5px;
+    border-radius: 8px;
+    margin-top: 110px;
+    float: right;
+    width: 120px;
+}
+
+
+
+
+input[type=date] {
+    color:#fff;
+    text-align: right;
+}
+
+input[type=date]::placeholder {
+    color:#5c6569;
+}
+input[type=date]:invalid::-webkit-datetime-edit {
+    color: #999;
+}
+
+.grayTxt{
+    color:#5c6569;
+}
+
+
+.tit03{
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+body {
+    background-image: linear-gradient(to right,#09141A, #0D1D23 , #1F4247);
+}
+
+.title{
+    color: #fff;
+}
+
+/* .bgbody{
+    background-image: url("../img/bg.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+} */
+
+.menuIcon{
+    width: 22px;
+    height: 22px;
+    margin-top: 10px;
+}
+.logo1{
+    width: 5%;
+    float: left;
+    display: block;
+}
+.logo2{
+    width: 15%;
+    float: left;
+    display: block;
+}
+
+.headercontent{
+    width: 60%;
+    float: left;
+    display: block;
+}
+
+
+.row{
+    display: ruby;
+}
+
+.showPassword{
+    margin-left: 15px;
+}
+
+
+
+.headerBox{
+    width: 100%;
+}
+
+.showPass{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    display: block;
+}
+
+
+.userInfo{
+    width: 20%;
+    float: right;
+    display: block;
+    text-align: right;
+    
+}
+
+.userIcon{
+    width: 30px;
+    height: 30px;
+}
+
+
+.logoIcon{
+    width: 35px;
+    height: 35px;
+}
+
+.logoIcon:hover{
+    cursor: pointer;
+}
+
+.menuClose{
+    width:30px;
+    height:30px;
+    margin-right:25px;
+    margin-bottom:30px
+}
+.menuClose:hover{
+    width:30px;
+    height:30px;
+    margin-right:25px;
+    margin-bottom:30px;
+    cursor: pointer;
+}
+
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+.leftPostContent{
+    width: 70%;
+    float: left;
+    display: block;
+}
+
+.rightPostContent{
+    width: 30%;
+    float: right;
+    display: block;
+}
+
+.passIcon{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+
+.editIcon{
+    width: 20px;
+    height: 20px;
+    /* float: right; */
+    margin-bottom: 150px;
+    clear: right;
+    display: block;
+    margin-left: auto;
+}
+
+.editAboutIcon{
+    width: 20px;
+    height: 20px;
+    float: right;
+    clear: right;
+    display:inline;
+    margin-left: auto;
+}
+
+.editAboutIcon:hover{
+    cursor: pointer;
+}
+
+.editAboutText{
+    display:inline;
+    line-height: 20px; /* set this to your image's height */
+    vertical-align: top; /* center the text vertically along with the image */
+    margin-left: 8px; /* optional margin */
+    color: #fff;
+}
+
+.editIcon:hover{
+    cursor: pointer;
+}
+
+.removeImage{
+    width: 12px;
+    height: 12px;
+    margin-top: 12px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.removeImage:hover{
+    cursor: pointer;
+}
+
+.content{
+    padding: 2% 4%;
+}
+input:focus { 
+    border: 0;
+    /* background-color: red; */
+}
+
+
+.seeActionPassword{
+    position: absolute;
+    width: 50px;
+    top: 0;
+    right: 3%;
+}
+.seeActionPassword:hover{
+    cursor: pointer;
+}
+
+.aboutInput{
+    padding: 18px 5%;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #495559;
+    /* background-color:rgba(107,97,97,0.4); */;
+    background-color:#16252a;
+    text-align: right;
+    color:#fff;
+    
+} 
+
+select {
+    text-align-last: right;
+    color:#5c6569;
+}
+
+.aboutSelect{
+    padding: 15px 2%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    /* background-color:rgba(107,97,97,0.4); */;
+    background-color:#16252a;
+    border: 2px solid #495559;
+    /* color: #fff; */
+}
+
+.aboutAPI{
+    width: 100%;
+    height: 50px;
+    /* background-image: linear-gradient(to right, #00d0ce, #009bdb); */
+    /* background: #2bb9c3; */
+    transition: background-color 1s ease-out 100ms;
+    border: 1px solid #16252a;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #16252a;
+}
+
+.aboutAPI:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 3px 8px 12px 0 rgba(255, 255, 255, 0.2)
+}
+
+.editAboutText span{
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.editAboutText span:hover{
+    cursor: pointer;
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.floatR{
+    float: right;
+}
+
+.leftTxt{
+    text-align: left;
+}
+
+/* select {
+    color:#5c6569;
+}
+  /* with the :focus here, we show grey when using the element */
+select:focus {
+    color: #fff;
+}
+
+select option:first-child{
+    color: pink;
+} */
+
+select {
+    color: white;
+}
+
+
+label{
+    width: 40%;
+}
+
+.inputBox{
+    padding: 18px 5%;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    /* background-color:rgba(107,97,97,0.4); */;
+    background-color:#193c41;
+    /* border: 2px solid #495559; */
+    color:#fff;
+}
+.commentInputBox{
+    padding: 2%;
+    width: 86%;
+}
+
+.buttonBox{
+    width: 6%;
+    padding: 2.11% 1%;
+    /* height: 50px; */
+    background: #fff;
+    transition: background-color 1s ease-out 100ms;
+    border: 1px solid #000;
+}
+
+.buttonBox:hover{
+    width: 6%;
+    padding: 2.2% 1%;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.postActionButton {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to right, #00d0ce , #009bdb);
+    /* background: #2bb9c3; */
+    transition: background-color 1s ease-out 100ms;
+    border: 1px solid #2bb9c3;
+    color: #fff;
+    border-radius: 10px;
+}
+  
+.postActionButton:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 3px 8px 12px 0 rgba(255, 255, 255, 0.2)
+}
+
+
+.closeButton {
+    width: 40%;
+    height: 50px;
+    background: #fff;
+    transition: background-color 1s ease-out 100ms;
+    border: 1px solid #000;
+}
+  
+.closeButton:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttonBox1{
+    width: 26%;
+    padding: 2% 0px;
+    transition: background-color 2s ease-out 100ms
+}
+.buttonBox1:hover{
+    width: 26%;
+    padding: 2% 0px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 19px;
+    background-image: linear-gradient(90deg,#52a0fd 0,#5e65cf 51%,#52a0fd);
+    transform: scale(.88);
+}
+
+.userInfoBox{
+    width: 91%;
+    height: 200px;
+    background-color:rgba(38,62,69,0.48);
+    border-radius: 15px;
+    padding: 12px 3% 12px 6%;
+    margin-bottom: 25px;
+}
+
+.userInfoBoxBG{
+    width: 91%;
+    height: 290px;
+    background-image: url("../img/profile.jpg");
+    border-radius: 15px;
+    padding: 12px 3% 12px 6%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aboutInfoBox{
+    width: 91%;
+    background-color:rgba(38,62,69,0.48);
+    border-radius: 15px;
+    padding: 12px 3% 12px 6%;
+    margin-bottom: 25px;
+}
+
+.editAboutTxt{
+    padding-top: 35px;
+    color: #899193;
+}
+
+.marginB30{
+    margin-bottom: 30px;
+}
+
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form1{
+    width: 55%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.aboutForm{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.modal{
+    width: 150px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding:20px;
+    background-color: #fff;
+    
+}
+
+.txt{
+    color: #fff;
+}
+
+.txtGradient{
+   
+    background: #94783E;
+    background: linear-gradient(to right, #94783E 0%, #F8FAE5 13%, #D5BE88 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+.txtBlueGradient{
+    background: #94783E;
+    background: linear-gradient(to right, #ABFFFD 0%, #4599DB 13%, #AADAFF 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+
+.noDataBox{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+.noData{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.noData:hover{
+    cursor: pointer;
+}
+
+.hover:hover{
+    cursor: pointer;
+}
+
+.actionButton{
+    width: 90%;
+    padding: 15px;
+}
+
+.logout:hover{
+    cursor: pointer;
+}
+
+.txtCursor:hover{
+    cursor: pointer;
+}
+
+.marginT{
+    margin-top: 50px;
+}
+
+.userInfoName{
+    display: inline;
+    color: #fff;
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.floatL{
+    float: left;
+}
+.marginT35{
+    margin-bottom: 35px;
+}
+
+.margin0padding0{
+    margin: 0;
+    padding: 0;
+}
+
+#hidden {
+    display: none;
+}
+#visible:hover #hidden {
+    display: block;
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+ul {
+    list-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .imageContainer{
+        width: 60%;
+    }
+    
+
+    .form{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .actionButton {
+        width: 75%;
+        padding: 15px;
+    }
+    .imageContainer{
+        width: 50%;
+    }
+
+    .form{
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .title{
+        font-size: 22px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 899px) {
+    
+    .imageContainer{
+        width: 45%;
+    }
+    
+    .form{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .imageUpload{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .imageUploadText{
+        font-size: 32px;
+    }
+
+    .imageContainerLeft{
+        width: 60%;
+    }
+
+    .imageContainerRight{
+        width: 40%;
+    }
+
+    .aboutLabel{
+        font-size: 14px;
+    }
+
+    input{
+        font-size: 14px;
+    }
+
+    .logo1{
+        width: 10%;
+        float: left;
+        display: block;
+    }
+    .logo2{
+        width: 20%;
+        float: left;
+        display: block;
+    }
+    
+    .headercontent{
+        width: 50%;
+    }
+    .title{
+        font-size: 21px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .actionButton {
+        width: 75%;
+        padding: 15px;
+    }
+    .imageContainer{
+        width: 50%;
+    }
+
+    .form{
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    .imageUpload{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .imageUploadText{
+        font-size: 32px;
+    }
+
+    .imageContainerLeft{
+        width: 60%;
+    }
+
+    .imageContainerRight{
+        width: 40%;
+    }
+
+    .aboutLabel{
+        font-size: 14px;
+    }
+
+    input{
+        font-size: 14px;
+    }
+
+    .logo1{
+        width: 15%;
+        float: left;
+        display: block;
+    }
+    .logo2{
+        width: 25%;
+        float: left;
+        display: block;
+    }
+    
+    .headercontent{
+        width: 40%;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+   
+}
+
+@media only screen and (max-width: 370px) {
+    
+    .actionButton {
+        width: 75%;
+        padding: 15px;
+    }
+    .imageContainer{
+        width: 70%;
+    }
+
+    .form{
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    .imageUpload{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .imageUploadText{
+        font-size: 32px;
+    }
+
+    .imageContainerLeft{
+        width: 60%;
+    }
+
+    .imageContainerRight{
+        width: 40%;
+    }
+
+    .aboutLabel{
+        font-size: 14px;
+    }
+
+    input{
+        font-size: 14px;
+    }
+
+    .logo1{
+        width: 15%;
+        float: left;
+        display: block;
+    }
+    .logo2{
+        width: 25%;
+        float: left;
+        display: block;
+    }
+    
+    .headercontent{
+        width: 40%;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
