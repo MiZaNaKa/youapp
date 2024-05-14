@@ -90,7 +90,7 @@ function Login(props) {
     <Header />
     <div className="form">
       <h4  onClick={() => navigate(-1)} className="editAboutText txtCursor">
-        &lt;  Back
+        &lt;  Back kkt 
       </h4>
 
       <h1 className='title marginT'>Login</h1>
